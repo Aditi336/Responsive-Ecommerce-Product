@@ -1,0 +1,26 @@
+This is a responsive Ecommerce Product project using MERN
+It has following features:
+    Navbar
+    SideNavbar
+    Login
+    Register
+    Tv purchasing
+    Mobile purchasing
+    Men's wear
+    Women's wear
+    Filter
+    Shopping Cart
+    Order placed
+    Footer
+
+BACKEND
+I have used mongodb to save user data in backend and fetch data accordingly when need.
+*User Data
+*Tv details
+*Mobile details
+*Menshirts
+*Women frocks
+These details are stored in mongodb ,these details are fetched and using map function I have added these features 
+
+FRONTEND
+i have used CSS and tailwindCSS
