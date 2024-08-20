@@ -1,0 +1,98 @@
+#mob_filter{
+    margin-top: 1em;
+    padding-left: 2em;
+    padding-top: 3em;
+    padding-right: 12em;
+    padding-bottom: 3em;
+    width: 27em;
+    background-color:  white;
+
+}
+.brand_filter_check{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: .9em;
+}
+
+#brand_ul_filter{
+    list-style-type: none;
+}
+.custom-label {
+    font-size: 2em; /* Change the label font size */
+    /* margin-bottom: 1em; */
+  }
+.custom-label-ratings{
+    font-size: 1.8em;
+}
+.custom-checkbox{
+    width: .8em; /* Increase the width */
+    height: .8em;
+
+}
+
+@media (max-width:1700px) {
+        #mob_filter{
+            margin-top: .7em;
+            padding: 1em;
+            width: 12em;
+            background-color: white;
+        }
+        .brand_filter_check{
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .custom-label-ratings{
+            font-size: 1.6em;
+        }
+        .custom-label {
+            font-size: 1.6em; /* Change the label font size */
+          }
+        .custom-checkbox{
+            width: .4em; /* Increase the width */
+            height: .4em;
+        }
+    
+}
+@media (max-width:900px) {
+    #mob_filter{
+        margin-top: .7em;
+        padding: 1em;    
+    }
+    .brand_filter_check{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .custom-label-ratings{
+        font-size: 1.2em;
+    }
+    .custom-label {
+        font-size: 1.2em; /* Change the label font size */
+      }
+    .custom-checkbox{
+        width: .4em; /* Increase the width */
+        height: .4em;
+    }
+}
+@media (max-width:600px) {
+    #mob_filter{
+        margin-top: .7em;
+        padding: 1em;
+        margin-left: 9em;
+    
+    }
+    .brand_filter_check{
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+    .custom-label-ratings{
+        font-size: 1.2em;
+    }
+    .custom-label {
+        font-size: 1.2em; /* Change the label font size */
+      }
+    .custom-checkbox{
+        width: .4em; /* Increase the width */
+        height: .4em;
+    
+    }
+}

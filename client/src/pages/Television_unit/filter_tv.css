@@ -1,0 +1,66 @@
+#container_filter_television{
+    background-color: white;
+    padding: 2em;
+    width: 20em;
+    margin-top: 3em;
+}
+.heading_filter_television{
+    font-size: 3em;
+}
+.ul_filter_television{
+    list-style-type:none ;
+}
+.label_filter_television{
+    font-size: 1.9em;
+    /* color: aqua; */
+}
+.checkbox_filter_television{
+    width: .8em;
+    height: .8em;
+}
+@media (max-width:900px) {
+    #container_filter_television{
+        background-color: white;
+        padding: 1.6em;
+        width: 17em;
+        margin-top: 3em;
+    }
+    .heading_filter_television{
+        font-size: 2em;
+    }
+    .ul_filter_television{
+        list-style-type:none ;
+    }
+    .label_filter_television{
+        font-size: 1.5em;
+        /* color: aqua; */
+    }
+    .checkbox_filter_television{
+        width: .4em;
+        height: .4em;
+    }
+    
+}
+@media (max-width:750px) {
+    
+    #container_filter_television{
+        background-color: white;
+        padding: 2em;
+        width: 14.2em;
+        margin-top: 3em;
+    }
+    .heading_filter_television{
+        font-size: 1.9em;
+    }
+    .ul_filter_television{
+        list-style-type:none ;
+    }
+    .label_filter_television{
+        font-size: 1.4em;
+        /* color: aqua; */
+    }
+    .checkbox_filter_television{
+        width: .5em;
+        height: .5em;
+    }
+}

@@ -1,0 +1,181 @@
+#ul_container_menshirt{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#men_shirt_container{
+    flex:1 1 calc(33.33%-2em);
+    margin: 0.5em; /*Adjust margin as needed*/
+    box-sizing: border-box;
+}
+#men_shirt_container{
+    background-color: white;
+    margin-bottom: 4em;
+    width: 26em;
+    height: 40em;
+
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+#men_shirt_container:hover{
+    width: 26em;
+    height: 40em;
+
+}
+#main_img_men{
+    width: 18em;
+    height: 20em;
+    /* margin-left: 7em;
+    margin-right: 7em; */
+    
+}
+#content_men_shirt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 3px solid green; */
+    transition: height 3s width 3s transform 3s;
+    /* transition-delay: 9ms; */
+    transition-timing-function: ease-in;
+
+}
+#content_men_shirt:hover{
+    height: 20em;
+    width: 20em;
+    background-color: white;
+    transform: translateY(-5em);
+    border-top-left-radius:3em ;
+    border-top-right-radius: 3em;
+    /* padding-bottom: -1em; */
+}
+#name_of_dress_menshirt{
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: .3em;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    width: 10em; 
+}
+#content_men_shirt:hover #name_of_dress_menshirt{
+    width: auto;
+    text-overflow: clip;
+    white-space: normal;
+    overflow: visible;
+}
+#brand_name_menshirt{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#color_palate_ul_menshirt{
+    display: flex;
+    margin-left: 3em;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+}
+#color_palatee_menshirt{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #000; /* Adjust the border color and thickness as needed */
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0.5em;
+    margin-bottom: 1em;
+    
+
+}
+#review_television{
+    font-size: 1.5em;
+    background-color: green;
+    border-radius: .4em;
+    width: 3em;
+    color: white;
+    text-align: center;
+    /* font-weight: 600; */
+    padding: .01em;
+    margin-bottom: 1em;
+
+}
+#price_men_shirt{
+    font-size: 2.3em;
+    font-weight: 600;
+}
+#isActive_menshirt{
+    font-size: 1.6em;
+}
+
+@media (max-width:1200px) {
+    #men_shirt_container{
+        flex:1 1 calc(33.33%-1px);
+        margin: 0.5em; /*Adjust margin as needed*/
+        box-sizing: border-box;
+    }
+    #men_shirt_container{
+        /* margin-bottom: 4em; */
+        width: 20em;
+        height: 30em;
+        border-radius: 3em;
+        padding: 1em;
+    }
+    #men_shirt_container:hover{
+        width: 15em;
+        height: 30em;
+    }
+    #main_img_men{
+        width: 10em;
+        height: 12em;        
+    }
+    #content_men_shirt:hover{
+        width: 12em;
+        height: 18em;
+    }
+    #name_of_dress_menshirt{
+        font-size: 1.7em;
+        font-weight: 500;
+        margin-bottom: .3em;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; 
+        width: 8em; 
+    }
+    #brand_name_menshirt{
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    #color_palate_ul_menshirt{
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+    #color_palatee_menshirt{
+        padding: 12px;
+    }
+    #price_men_shirt{
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+    #isActive_menshirt{
+        font-size: 1.2em;
+    }
+    #review_television{
+        font-size: 1.2em;
+        border-radius: .4em;
+        width: 3em;
+        padding: .01em;
+        margin-bottom: 1em;
+    
+    }
+    
+}

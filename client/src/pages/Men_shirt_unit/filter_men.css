@@ -1,0 +1,64 @@
+#container_filter_menshirt{
+    padding: 4em;
+    width: 20em;
+    /* border: 3px solid red; */
+    background-color: white;
+    
+}
+.heading_filter_menshirt{
+    font-size: 3em;
+    font-weight: 500;
+
+}
+.heading_filter_menshirt_ul{
+    list-style-type: none;
+}
+.label_filter_menshirt{
+    font-size: 2em;
+}
+.checkbox_filter_men_shirt{
+    width: .5em;
+    height: .5em;
+}
+#filter_color_menshirt{
+    display: inline;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: .1em;
+    margin-bottom: .2em;
+    list-style-type: none;
+}
+#filter_color_menshirt li{
+    margin-right: .2em;
+ 
+}
+.color_palatee_menshirt_li{
+    width: 2em;
+    height: 2em;
+    border: none;
+}
+@media (max-width:1200px) {
+    #container_filter_menshirt{
+        padding: 1.7em;
+        width: 11.7em;
+        /* border: 3px solid red; */
+        background-color: white;
+        
+    }
+    .heading_filter_menshirt{
+        font-size: 2em;
+        font-weight: 500;
+    
+    }
+    .heading_filter_menshirt_ul{
+        list-style-type: none;
+    }
+    .label_filter_menshirt{
+        font-size: 1.3em;
+    }
+    .checkbox_filter_men_shirt{
+        width: .5em;
+        height: .5em;
+    }
+}

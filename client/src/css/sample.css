@@ -1,0 +1,23 @@
+#sample_section{
+    margin-top: 6em;
+    margin-bottom: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+@media (max-width:1000px) {
+    #h1_sample_hero{
+        font-size: 1.9em;
+    }
+}
+@media (max-width:700px) {
+    #sample_section{
+        width: 50em;
+        margin-left: 3.5em;
+
+    }
+    #h1_sample_hero{
+        font-size: 1.5em;
+        margin-top: -1em;
+    }
+}

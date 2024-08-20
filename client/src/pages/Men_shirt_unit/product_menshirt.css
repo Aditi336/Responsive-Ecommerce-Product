@@ -1,0 +1,27 @@
+#contaier_productmenshirt{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    margin: auto;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 9em;
+    /* border: 2px solid black; */
+}
+@media (max-width:1200px) {
+    #contaier_productmenshirt{
+        display: flex;
+        flex-direction: row;
+        /* margin: auto; */
+        margin-left: 12em;
+        margin-right: 8em;
+        /* border: 2px solid black; */
+        width: 56em;
+    }
+}
+@media (max-width:900px) {
+    #contaier_productmenshirt{
+        margin-left: 3em;
+        margin-right: 2em;
+    }
+}
